@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 05</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="nav-menu">
+        <a href="#">Home page</a>
+        <a href="#">Musings</a>
+        <a href="#">My town</a>
+        <a href="#">Links</a>
+    </div>
+body {
+     background-color: #c8d84b;
+     font-family: Arial, sans-serif;
+     margin: 20px;
+     padding: 0;
+ }
+
+ h1 {
+     color: #800080;
+     margin-bottom: 15px;
+ }
+
+ .nav-menu {
+     width: 150px;
+     float: left;
+     margin-right: 20px;
+ }
+
+ .nav-menu a {
+     display: block;
+     padding: 5px 10px;
+     margin-bottom: 5px;
+     background-color: white;
+     text-decoration: none;
+     color: #000080;
+     border: 1px solid #666;
+     position: relative;
+ }
+
+ .nav-menu a:hover {
+     background-color: #f0f0f0;
+ }
+
+ .nav-menu a::after {
+     content: '';
+     display: inline-block;
+     width: 10px;
+     height: 100%;
+     background-color: black;
+     position: absolute;
+     right: -10px;
+     top: 0;
+ }
+
+ .content {
+     margin-left: 170px;
+ }
+
+ p {
+     color: #800080;
+     margin-bottom: 10px;
+ }
+
+ .footer {
+     color: #800080;
+     font-style: italic;
+     margin-top: 30px;
+ }
+    <div class="content">
+        <h1>My first styled page</h1>
+        <p>Welcome to my styled page!</p>
+        <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+        <p>There should be more here, but I don't know what yet.</p>
+        <div class="footer">
+            Made 5 April 2004<br>
+            by myself.
+        </div>
+    </div>
+</body>
+</html>
